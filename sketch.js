@@ -13,7 +13,7 @@ createCanvas(windowWidth,windowHeight);
   // "Continuous recognition" (as opposed to one time only)
   let continuous = true;
   // If you want to try partial recognition (faster, less accurate)
-  let interimResults = false;
+  let interimResults = true;
   // This must come after setting the properties
   speechRec.start(continuous, interimResults);
 
